@@ -1,0 +1,21 @@
+PACKAGE DOCUMENTATION
+
+package goutil
+    import "github.com/edgard/goutil"
+
+
+FUNCTIONS
+
+func IsDir(path string) bool
+    IsDir checks if directory exists and is a directory
+
+func MoveFile(src string, dst string) error
+    MoveFile copies and delete file from original location
+
+func StringCap(s string, length int) string
+    StringCap limits string to number or characters
+
+func StringInSlice(s string, slice []string) bool
+    StringInSlice checks if string is in slice
+
+
