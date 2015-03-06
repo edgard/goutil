@@ -6,6 +6,9 @@ package goutil
 
 FUNCTIONS
 
+func DiffInStringSlice(slice1 []string, slice2 []string) []string
+    DiffInStringSlice returns the difference between string slices
+
 func IsDir(path string) bool
     IsDir checks if directory exists and is a directory
 
